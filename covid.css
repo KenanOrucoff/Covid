@@ -4,6 +4,17 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+/* *.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1160px;
+} */
+
+
 .navbar{
     padding-right: 60px;
 }
@@ -228,19 +239,13 @@
     .statistics-head{
         margin-top: 80px;
     }
-    /* .statistics-head .container{
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1230px;
-    } */
+   
     .prevent-card{
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         margin: 20px;
         width: 75%;
         border-radius: 10px;
+        padding-bottom: 20%;
     
     }
     .preventcorona{
@@ -272,13 +277,14 @@
     .card-text p{
         width: 115%;
         color: #aaa;
-        font-size: 16px;
+        font-size: 17px;
+        margin-top: 10px;
+        line-height: 25px;
     }
     .card-text h3{
-        width: 116%;
-        font-size: 18px;
-        font-weight: 700;
+        font-family: sans-serif;
         color: #6f42c1;
+        width: 121%;
     }
     .card1{
         margin-left: 50px;
@@ -336,7 +342,7 @@
         font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         color: gray;
         font-weight: 400;
-        margin-top: 20px;
+        margin-top: 25px;
         width: 45%;
         margin: 0 auto;
     }
@@ -406,14 +412,7 @@
     .protect{
         margin-top: 90px;
     }
-    /* .protect .container{
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1140px;
-    } */
+   
     
     .bodytext h1{
         font-size: 30px;
@@ -518,15 +517,7 @@
         margin-top: 80px;
     }
     
-    /* .symptoms .container{
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1140px;
-    } */
-    
+   
     .articles h1{
         font-size: 30px;
         margin-left: 15px;
@@ -582,14 +573,7 @@
     .articles{
         padding-top: 80px;
     }
-    /* .articles .container{
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1140px;
-    } */
+    
     .menu-footer{
         display: flex;
         justify-content: space-around;
@@ -652,14 +636,7 @@
     .icon-blue{
         padding-top: 40px;
     }
-    /* footer .container{
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1140px;
-    } */
+   
     
     @media(max-width:900px){
         .body-header{
@@ -669,8 +646,12 @@
             font-size: 24px;
         }
         .statistics p{
-            width: 95%;
+        width: 95%;
+        margin: 0 auto;
+        line-height: 25px;
         }
+
+        
         .data{
             text-align: center;
         }
